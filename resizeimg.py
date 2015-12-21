@@ -1,3 +1,6 @@
+#from pythonvietnam
+#email: khanhnn@pythonvietnam
+#you must install requests and pillow
 import requests
 from PIL import Image
 from io import BytesIO
@@ -10,6 +13,6 @@ def get_image_size(url):
 
 
 if __name__ == "__main__":
-    url = "http://4.bp.blogspot.com/_A2NamGQmyCc/TO1nWedGQQI/AAAAAAAAAnA/WxBVyEGHxjc/s1600/sbn_pic_2.jpg"
+    url = "http://pythonvietnam.info/styles/default/xenforo/logo.png"
     width, height = get_image_size(url)
     print width, height
